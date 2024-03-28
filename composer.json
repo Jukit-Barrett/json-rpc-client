@@ -1,0 +1,26 @@
+{
+    "name": "jukit/json-rpc-client",
+    "description": "json-rpc-client",
+    "type": "library",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Jukit\\JsonRpcClient\\": "src/",
+            "Jukit\\JsonRpcClientTest\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "shiije.zhu",
+            "email": "jukit.lucky@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    },
+    "require": {
+        "ext-json": "*",
+        "ext-sockets": "*"
+    }
+}
